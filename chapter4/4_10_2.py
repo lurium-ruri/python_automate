@@ -9,7 +9,6 @@ def main():
             ['.', '0', '0', '.', '.', '.'],
             ['.', '.', '.', '.', '.', '.']]
 
-
     for i in range(len(grid[0])):
         row = ([row[i] for row in grid])
         list(map(lambda value: print(value, end=''), row))
