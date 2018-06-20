@@ -1,1 +1,5 @@
-chapter8/qa/
+!.gitkeep
+chapter8/qa/*
+mcb.dir
+mcb.dat
+mcb.bak
