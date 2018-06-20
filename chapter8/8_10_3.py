@@ -11,11 +11,10 @@ from pathlib import Path
 
 
 def main():
-    # if len(sys.argv) < 2:
-    #     sys.exit('正規表現パターンを引数に指定してください')
+    if len(sys.argv) < 2:
+        sys.exit('正規表現パターンを引数に指定してください')
 
-    # pattern = re.compile(sys.argv[1])
-    pattern = re.compile('a')
+    pattern = re.compile(sys.argv[1])
 
     p = Path('./chapter8')
     tgt_list = list(p.glob('*.text'))
